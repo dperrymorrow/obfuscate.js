@@ -10,7 +10,7 @@ $(document).ready(function(){
   test("test revealing an email address and label", 2, function() {
     $('.labelAlso').revealEmail(true)
     equal( $('.labelAlso').first().attr('href'), 'mailto:dperrymorrow@google.com');
-    equal( $('.labelAlso').first().text(), 'mailto:dperrymorrow@google.com');
+    equal( $('.labelAlso').first().text(), 'dperrymorrow@google.com');
   });
 
 });

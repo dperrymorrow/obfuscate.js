@@ -8,7 +8,7 @@
       $(this).attr( 'href', 'mailto:' + spl[1] + '@' + spl[0] );
 
       if( formatLbl ){
-        $(this).text( 'mailto:' + spl[1] + '@' + spl[0] );
+        $(this).text( spl[1] + '@' + spl[0] );
       }
     });
     return this;
