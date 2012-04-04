@@ -39,5 +39,5 @@ $('.show').revealEmail(true)
 
 #### Results in
 ````html
-<a class="show" href="dperrymorrow@google.com" rel="no-follow">dperrymorrow@gmail.com</a>
+<a class="show" href="mailto:dperrymorrow@google.com" rel="no-follow">dperrymorrow@gmail.com</a>
 ````
