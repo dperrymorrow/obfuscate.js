@@ -20,7 +20,9 @@ Hide your email address from bots.
 $('.show').revealEmail()
 ````
 #### Results in
-<a class="show" href="dperrymorrow@gmail.com" rel="no-follow">david morrow</a>
+````html
+<a class="show" href="mailto:dperrymorrow@gmail.com" rel="no-follow">david morrow</a>
+````
 
 ### Format the label as well
 sometimes you might want to display the email address as the label as well. You can by passing in an additional
@@ -36,4 +38,6 @@ $('.show').revealEmail(true)
 ````
 
 #### Results in
+````html
 <a class="show" href="dperrymorrow@google.com" rel="no-follow">dperrymorrow@gmail.com</a>
+````
