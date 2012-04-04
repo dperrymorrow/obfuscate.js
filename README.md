@@ -12,23 +12,23 @@ Hide your email address from bots.
 
 ````html
 <!-- disguises your email links as regular hrefs, tell bots to not follow as they are not valid links -->
-<a class="show" href="google.com/dperrymorrow" rel="no-follow">david morrow</a>
-<a class="show" href="google.com/dperrymorrow" rel="no-follow">david morrow</a>
+<a class="show" href="gmail.com/dperrymorrow" rel="no-follow">david morrow</a>
+<a class="show" href="gmail.com/dperrymorrow" rel="no-follow">david morrow</a>
 ````
 
 ````javascript
 $('.show').revealEmail()
 ````
 #### Results in
-<a class="show" href="dperrymorrow@google.com" rel="no-follow">david morrow</a>
+<a class="show" href="dperrymorrow@gmail.com" rel="no-follow">david morrow</a>
 
 ### Format the label as well
 sometimes you might want to display the email address as the label as well. You can by passing in an additional
 
 ````html
 <!-- disguises your email links as regular hrefs, tell bots to not follow as they are not valid links -->
-<a class="show" href="google.com/dperrymorrow" rel="no-follow">google.com/dperrymorrow</a>
-<a class="show" href="google.com/dperrymorrow" rel="no-follow">google.com/dperrymorrow</a>
+<a class="show" href="gmail.com/dperrymorrow" rel="no-follow">gmail.com/dperrymorrow</a>
+<a class="show" href="gmail.com/dperrymorrow" rel="no-follow">gmail.com/dperrymorrow</a>
 ````
 
 ````javascript
